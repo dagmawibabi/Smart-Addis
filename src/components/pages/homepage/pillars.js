@@ -1,34 +1,36 @@
+import { Link } from 'react-router-dom';
+
 export const Pillars = () => {
     let pillars = [
         {
             "title": "Smart Economy",
             "description": "Creating smart and sustainable economy for the citizen of Addis Ababa",
-            "icon": require("../assets/icons/profit.png"),
+            "icon": require("../../../assets/icons/profit.png"),
         },
         {
             "title": "Smart Environment",
             "description": "Creating smart and sustainable economy for the citizen of Addis Ababa",
-            "icon": require("../assets/icons/green-power.png"),
+            "icon": require("../../../assets/icons/green-power.png"),
         },
         {
             "title": "Smart Governance",
             "description": "Creating smart and sustainable economy for the citizen of Addis Ababa",
-            "icon": require("../assets/icons/digital-government.png"),
+            "icon": require("../../../assets/icons/digital-government.png"),
         },
         {
             "title": "Smart Living",
             "description": "Creating smart and sustainable economy for the citizen of Addis Ababa",
-            "icon": require("../assets/icons/network.png"),
+            "icon": require("../../../assets/icons/network.png"),
         },
         {
             "title": "Smart Mobility",
             "description": "Creating smart and sustainable economy for the citizen of Addis Ababa",
-            "icon": require("../assets/icons/electric-car.png"),
+            "icon": require("../../../assets/icons/electric-car.png"),
         },
         {
             "title": "Smart People",
             "description": "Creating smart and sustainable economy for the citizen of Addis Ababa",
-            "icon": require("../assets/icons/touch-id.png"),
+            "icon": require("../../../assets/icons/touch-id.png"),
         },
     ]
     return (
@@ -39,14 +41,16 @@ export const Pillars = () => {
                 {
                     pillars.map((index, value) => {
                         return (
-                            <div className="px-10 py-5 w-2/3 my-5 m-auto rounded-lg bg-white shadow-2xl">
-                                <img alt="icon" src={pillars[value]["icon"]} className="w-20 m-auto pb-5" />
-                                <span className="font-bold text-2xl"> {pillars[value]["title"]} </span> <br />
-                                <span className="text-lg"> {pillars[value]["description"]} </span>
-                                <div className="px-10 py-2 mt-6 bg-blue-500 rounded-lg text-white">
-                                    <span> Read More </span>
-                                </div>
-                            </div>
+                            <Link to="/pillar" key={index}> 
+                                <div className="px-10 py-5 w-2/3 my-5 m-auto rounded-lg bg-white shadow-xl hover:shadow-2xl" >
+                                    <img alt="icon" src={pillars[value]["icon"]} className="w-20 m-auto pb-5" />
+                                    <span className="font-bold text-2xl"> {pillars[value]["title"]} </span> <br />
+                                    <span className="text-lg"> {pillars[value]["description"]} </span>
+                                    <div className="px-10 py-2 mt-6 bg-blue-500 rounded-lg text-white hover:bg-blue-700 ">
+                                        <span> Read More </span>
+                                    </div>
+                                </div>                            
+                            </Link>
                         )
                     })
                 }

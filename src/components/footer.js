@@ -44,7 +44,7 @@ export const Footer = () => {
                     <input type={"text"} placeholder="name" className="block my-1 px-2 py-1 rounded-sm placeholder-white bg-zinc-900 border-2 border-zinc-600"></input>
                     <input type={"text"} placeholder="email" className="block my-1 px-2 py-1 rounded-sm placeholder-white bg-zinc-900 border-2 border-zinc-600"></input>
                     <textarea placeholder="message" className="block my-1 px-2 py-1 rounded-sm placeholder-white bg-zinc-900 border-2 border-zinc-600"></textarea>
-                    <div className="rounded-lg bg-blue-500 px-5 py-1 mt-3 text-white">
+                    <div className="rounded-lg bg-blue-500 px-5 py-1 mt-3 text-white hover:bg-blue-700">
                         <span> Submit </span>
                     </div>
                 </div>

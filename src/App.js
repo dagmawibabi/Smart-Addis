@@ -1,17 +1,25 @@
 import './App.css';
-import { Footer } from './components/footer';
-import { Header } from './components/header';
-import { MVG } from './components/mvg';
 import { NavBar } from './components/navbar';
-import { Pillars } from './components/pillars';
+import { Footer } from './components/footer';
+import { HomePage } from './components/pages/homepage/homepage';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { EachPillar } from './components/pages/pillarPage/eachPillar';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Header />
-      <MVG />
-      <Pillars />
+
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/pillar' element={<EachPillar />} />
+        </Routes>
+      </BrowserRouter>
+      
+
       <Footer />
     </div>
   );
