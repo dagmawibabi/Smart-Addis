@@ -48,10 +48,12 @@ export const Footer = () => {
             </div>
             {/* END NOTE */}
             <div className="flex justify-between bg-zinc-800 text-white px-10 py-2">
-                <span> Smart Addis &copy; 2022 </span>
                 <div>
                     <span className="px-2 text-slate-300"> Privacy Policy </span>
                     <span className="px-2 text-slate-300"> Terms & Conditions </span>
+                </div>
+                <span> Smart Addis &copy; 2022 </span>
+                <div>
                     <span className="px-2 text-slate-300"> Copyright </span>
                     <span className="px-2 text-slate-300"> FAQ </span>
                 </div>
