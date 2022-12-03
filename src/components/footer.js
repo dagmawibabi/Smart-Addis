@@ -8,6 +8,9 @@ export const Footer = () => {
                     <span className="block text-start text-slate-300 py-1 px-4"> About </span> 
                     <span className="block text-start text-slate-300 py-1 px-4"> Smart Hubs </span> 
                     <span className="block text-start text-slate-300 py-1 px-4"> Contact </span> 
+                    <span className="block text-start text-slate-300 py-1 px-4"> Privacy Policy </span> 
+                    <span className="block text-start text-slate-300 py-1 px-4"> Terms & Conditions </span> 
+                    <span className="block text-start text-slate-300 py-1 px-4"> FAQ </span> 
                 </div>
                 <div>
                     <span className="block text-start text-white py-1 font-bold text-lg mb-3"> Contact Us </span> 
@@ -41,22 +44,14 @@ export const Footer = () => {
                     <input type={"text"} placeholder="name" className="block my-1 px-2 py-1 rounded-sm placeholder-white bg-zinc-900 border-2 border-zinc-600"></input>
                     <input type={"text"} placeholder="email" className="block my-1 px-2 py-1 rounded-sm placeholder-white bg-zinc-900 border-2 border-zinc-600"></input>
                     <textarea placeholder="message" className="block my-1 px-2 py-1 rounded-sm placeholder-white bg-zinc-900 border-2 border-zinc-600"></textarea>
-                    <div className="rounded-lg bg-blue-700 px-5 py-1 mt-3 text-white">
+                    <div className="rounded-lg bg-blue-500 px-5 py-1 mt-3 text-white">
                         <span> Submit </span>
                     </div>
                 </div>
             </div>
             {/* END NOTE */}
-            <div className="flex justify-between bg-zinc-800 text-white px-10 py-2">
-                <div>
-                    <span className="px-2 text-slate-300"> Privacy Policy </span>
-                    <span className="px-2 text-slate-300"> Terms & Conditions </span>
-                </div>
+            <div className="flex justify-center bg-zinc-800 text-white px-10 py-2">
                 <span> Smart Addis &copy; 2022 </span>
-                <div>
-                    <span className="px-2 text-slate-300"> Copyright </span>
-                    <span className="px-2 text-slate-300"> FAQ </span>
-                </div>
             </div>
         </div>
     )
