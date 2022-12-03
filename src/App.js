@@ -1,7 +1,9 @@
 import './App.css';
+import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { MVG } from './components/mvg';
 import { NavBar } from './components/navbar';
+import { Pillars } from './components/pillars';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <NavBar />
       <Header />
       <MVG />
+      <Pillars />
+      <Footer />
     </div>
   );
 }
