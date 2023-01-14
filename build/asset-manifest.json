@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a384fb2f.css",
+    "main.js": "/static/js/main.602f7510.js",
+    "static/js/787.f974e65e.chunk.js": "/static/js/787.f974e65e.chunk.js",
+    "static/media/g1.png": "/static/media/g1.3c06d18ea36aeb2f2614.png",
+    "static/media/g2.png": "/static/media/g2.034826b4cc6589b0ea94.png",
+    "static/media/cbe.jpg": "/static/media/cbe.eaab5f80d051d0f8f7a3.jpg",
+    "static/media/Oxanium-VariableFont_wght.ttf": "/static/media/Oxanium-VariableFont_wght.d26645d688bccd49b28b.ttf",
+    "static/media/network.png": "/static/media/network.9fd42c1cced41809627f.png",
+    "static/media/profit.png": "/static/media/profit.7450d599451c3767bc9e.png",
+    "static/media/mission.png": "/static/media/mission.f06a701de89acb4ae978.png",
+    "static/media/phone-call.png": "/static/media/phone-call.e7db31039cbc0dc30592.png",
+    "static/media/touch-id.png": "/static/media/touch-id.ca7edb4b63e53e046b56.png",
+    "static/media/electric-car.png": "/static/media/electric-car.4902ea91355fd793521b.png",
+    "static/media/telegram.png": "/static/media/telegram.b76beae5b2e76931bec1.png",
+    "static/media/instagram.png": "/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
+    "static/media/vision.png": "/static/media/vision.39a7f30836c4429abe7d.png",
+    "static/media/AAlogo.png": "/static/media/AAlogo.16207ea9809636194619.png",
+    "static/media/green-power.png": "/static/media/green-power.2f439d8e8981daeb6b26.png",
+    "static/media/gmail.png": "/static/media/gmail.a2f2146f929409405da0.png",
+    "static/media/digital-government.png": "/static/media/digital-government.db6128c9548b2584b267.png",
+    "static/media/task-list.png": "/static/media/task-list.395f43296a567afa4cd9.png",
+    "index.html": "/index.html",
+    "main.a384fb2f.css.map": "/static/css/main.a384fb2f.css.map",
+    "main.602f7510.js.map": "/static/js/main.602f7510.js.map",
+    "787.f974e65e.chunk.js.map": "/static/js/787.f974e65e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a384fb2f.css",
+    "static/js/main.602f7510.js"
+  ]
+}

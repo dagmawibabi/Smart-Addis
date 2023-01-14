@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
-        <div>
-            <div className="flex justify-between bg-zinc-900 text-white px-52 py-10">
+        <div className="w-full right-0">
+            <div className="flex w-full justify-between bg-zinc-900 text-white px-52 py-10">
                 <div className="block">
                     <span className="block text-start text-white py-1 font-bold text-lg"> Useful Links </span> 
                     <span className="block text-start text-slate-300 py-1 px-4"> Home </span> 
